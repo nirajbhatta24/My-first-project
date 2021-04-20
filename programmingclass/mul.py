@@ -1,9 +1,7 @@
-def add():
+def mul():
     a=int(input("enter a number"))
     b=int(input("enter another number"))
-    print(f"The sum of {a} and {b} is {a+b}")
+    return a*b
 
-add()
-
-
-
+c=mul()
+print(c)
